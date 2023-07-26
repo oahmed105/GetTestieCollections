@@ -17,7 +17,7 @@ public class TestStack {
     public void TestStack1() {
         Stack<String> stack = new Stack<>();
         stack.push("Hello world");
-        assertEquals(false, stack.isEmpty()); // false
+        assertFalse(stack.isEmpty()); // false
     }
 
     // Make a bigger test exercising more Stack methods.....
